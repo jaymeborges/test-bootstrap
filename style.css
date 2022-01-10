@@ -10,9 +10,9 @@ body{
     font-size: 10px;
 }
 
- .vt {
-   width: 30px;
-   transform: rotate(90deg);
+.vt {
+    width: 30px;
+    transform: rotate(90deg);
 }
 
 .font .text1{
@@ -21,6 +21,37 @@ body{
 
 .font .text2{
     font-size: 9px;
+}
+
+label{
+    font-size: 10px;
+}
+
+.dom {
+    display:flex;
+}
+
+.dom2 input{
+    background-color: #e0e0e0;
+}
+.tel {
+    display:flex;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.check {
+    padding: 10px;
+}
+.check p {
+    height: 50%;
+    font-size: 8px;
+    color: #707070;
+}
+
+ input {
+    height: 25px;
 }
 
 .stepper-wrapper {
