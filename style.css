@@ -12,7 +12,8 @@ body{
 
 .text {
     text-align: center;
-    font-size: 11px;
+    font-size: 10px;
+    margin-bottom: 17px;
     color: #707070;
 }
 
@@ -50,14 +51,14 @@ label{
 
 .card {
      width:  65px;
-     height: 70px;
+     height: 65px;
      margin: auto;
      border: none;
 }
 
 .card img {
-     width: 35px;
-     height: 30px;
+     width: 30px;
+     height: 25px;
      justify-content: center;
      margin: auto;
      margin-top: 10px;
@@ -73,9 +74,9 @@ label{
 .form {
      background-color:white;
      width:  155px;
-     height: 70px;
-     margin-right: 10px;
-     margin-left: 8px;
+     height: 65px;
+     margin-right: 12px;
+     margin-left: 7px;
      padding: 13px;
      border-radius: 5px;
      border: none;
@@ -120,7 +121,6 @@ label{
     text-align: center; 
    
 }
-
 
 .stepper-wrapper {
     margin-top: auto;
