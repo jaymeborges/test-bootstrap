@@ -13,35 +13,43 @@
     <div class="container-fluid p-3 bg-danger"></div>
     <div class="container-fluid p-0 bg-danger">
     <div class="container col-sm-3 p-0 my-0 bg-white text-center">
-    <div class="header">
-      <h5 class="text-danger mb-0 pt-3 text-center">Cadrastre-se Gratuitamente</h5>
-      <p class="text-secondary mb-2 text-center">e tenha um plano vitalicio com</p>
+    <div>
+      <h5 class="text-danger mb-0 pt-3 text-center" 
+      style="font-size: 18px;">Cadrastre-se Gratuitamente</h5>
+      <p class="text-secondary mb-2 text-center" 
+      style="font-size: 14px;">e tenha um plano vitalicio com</p>
     </div>  
     
         <ul class="list-inline">
           <li class="list-inline-item m-0">
-           <div class="font">
-            <div class="text1"><p class="text-danger mb-0 text-center ">1000</p></div>
-            <div class="text2"> <p class="text-secondary mb-1 text-center">impressões</p></div>
+           <div>
+            <div><p class="text-danger mb-0 text-center"
+              style="font-size: 12px;"><strong>1000</strong></p></div>
+            <div> <p class="text-secondary mb-1 text-center"
+              style="font-size: 12px;">impressões</p></div>
            </div>
           </li>
           <li class="list-inline-item m-0">
-           <hr class="vt">
+           <hr class="line">
           </li>
           <li class="list-inline-item m-0">
-            <div class="font">
-              <div class="text1"><p class="text-danger mb-0 text-center ">1GB</p></div>
-              <div class="text2"> <p class="text-secondary mb-1 text-center">de espaço</p></div>
+            <div>
+              <div class=><p class="text-danger mb-0 text-center"
+                style="font-size: 12px;"><strong>1GB</strong></p></div>
+              <div class=><p class="text-secondary mb-1 text-center"
+                style="font-size:12px;">de espaço</p></div>
              </div>
           </li>
           </li>
           <li class="list-inline-item m-0 ">
-           <hr class="vt">
+           <hr class="line">
           </li>
           <li class="list-inline-item m-0">
-            <div class="font">
-              <div class="text1"><p class="text-danger mb-0 text-center ">3</p></div>
-              <div class="text2"> <p class="text-secondary mb-1 text-center">usuários</p></div>
+            <div>
+              <div class=><p class="text-danger mb-0 text-center "
+                style="font-size: 12px;"><strong>3</strong></p></div>
+              <div class=> <p class="text-secondary mb-1 text-center"
+                style="font-size: 12px;">usuários</p></div>
              </div>
           </li>
         </ul>
@@ -68,7 +76,7 @@
         <div class="col-12">
             <div class="form-group text-secondary">
                 <label for="nome">Nome</label>
-                <input type="text" class="form-control"> 
+                <input type="text" class="form-control" style="border-radius: 0%;"> 
             </div>
         </div>
     </div>
@@ -76,7 +84,7 @@
       <div class="col-12" >
           <div class="form-group text-secondary">
               <label for="email">Email</label>
-              <input type="text" class="form-control">
+              <input type="text" class="form-control" style="border-radius: 0%;">
               </div>
           </div>
       </div>
@@ -84,7 +92,7 @@
         <div class="col-12 ">
             <div class="form-group text-secondary">
                 <label for="senha">Senha</label>
-                <input type="text" class="form-control"> 
+                <input type="text" class="form-control" style="border-radius: 0%;"> 
                 </div>
             </div>
         </div>
@@ -93,13 +101,14 @@
           <label>Dominio</label>
         </div>
 
-        <div class="dom">
+        <div class="d-flex">
           <div class="col-sm-7">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" style="border-radius: 0%;">
           </div>
-          <div class="dom2">
+          <div class="form-group">
             <div class="input-group-prepend">
-            <span class="input-group-text text-secondary"><p>.selbetti.com.br</p></span>
+            <span class="input-group-text text-secondary" 
+            style="padding-bottom:0px; border-radius: 0%; width: 130px; height: 25px;">.selbetti.com.br</span>
           </div> 
           </div>
         </div>
@@ -107,26 +116,28 @@
         <div class="form-group text-secondary">
           <label>Telefone</label>
         </div>
-        <div class="tel">
+        <div class="d-flex">
           <div class="col-sm-2 pt-1">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" style="border-radius: 0%;">
           </div>
           <div class="col-sm-2 m-1">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" style="border-radius: 0%;">
           </div>
           <div class="col-sm- pt-1">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control"style="border-radius: 0%">
           </div>
         </div>
 
-        <div class="footer">
-          <div class="check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1"> <p>Concordo em receber novidades <br> sobre a Selbetti via email </p> </label>
+        <div class="d-flex" style="justify-content: space-between;">
+          <div class="text-secondary">
+            <input type="checkbox" class="form-check-input mt-4" id="exampleCheck1">
+            <label class="form-check-label"
+            style="font-size: 8px; padding-top: 21px;" for="exampleCheck1"> <p>Concordo em receber novidades <br> sobre a Selbetti via email </p> </label>
           </div>
   
-          <div class="btn">
-              <button class="btn btn-secondary btn-sm" type="reset">Continuar</button>
+          <div>
+              <button class="btn btn-secondary btn-sm " 
+              style="border-radius: 0%; margin-top: 15px; " type="reset">Continuar</button>
           </div>
         </div>
       </form>    

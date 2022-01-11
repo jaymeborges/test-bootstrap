@@ -2,124 +2,9 @@ body{
     background-color:light grey;
 }
 
-.header h5 {
-    font-size: 15px;
-}
-
-.header p {
-    font-size: 10px;
-}
-
-.text {
-    text-align: center;
-    font-size: 10px;
-    margin-bottom: 17px;
-    color: #707070;
-}
-
-.vt {
+.line {
     width: 30px;
     transform: rotate(90deg);
-}
-
-.font .text1{
-    font-size: 12px;
-}
-
-.font .text2{
-    font-size: 9px;
-}
-
-label{
-    font-size: 10px;
-}
-
-.dom {
-    display:flex;
-}
-
-.dom2 span {
-     padding: 0px;
-}
-
-.dom2 span p {
-     margin: 0px;
-     padding-left: 5px;
-     padding-right: 6px;
-     font-size: 15px;
-}
-
-.card {
-     width:  65px;
-     height: 65px;
-     margin: auto;
-     border: none;
-}
-
-.card img {
-     width: 30px;
-     height: 25px;
-     justify-content: center;
-     margin: auto;
-     margin-top: 10px;
-}
-
-.card p {
-    
-     font-size: 8px;
-     color: #707070;
-     text-align: center; 
-}
-
-.form {
-     background-color:white;
-     width:  155px;
-     height: 65px;
-     margin-right: 12px;
-     margin-left: 7px;
-     padding: 13px;
-     border-radius: 5px;
-     border: none;
-
-}
-
-.form input{
-     font-size: 10px;
-     color: #707070;
-     text-align: center;
-     border: none;
-}  
-
-.form a{
-     font-size: 10px;
-     color: #707070;
-     margin-left: 50px;
-     text-decoration: none;
-}  
-
-.tel {
-     display:flex;
-}
-.footer {
-     display: flex;
-     justify-content: space-between;
-}
-.check {
-    padding: 10px;
-}
-.check p {
-    height: 50%;
-    font-size: 8px;
-    color: #707070;
-}
-
- input {
-    height: 25px;
-}
-
-.btnx {
-    text-align: center; 
-   
 }
 
 .stepper-wrapper {
@@ -173,7 +58,7 @@ label{
 
     text-align: center;
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: 7px; 
+    font-size: 10px; 
     color: #707070;
   }
   
@@ -197,3 +82,57 @@ label{
   .stepper-item:last-child::after {
     content: none;
   }
+
+  input {
+    height: 25px;
+}
+
+.card {
+     width:  65px;
+     height: 65px;
+     margin: auto;
+     border: none;
+}
+
+.card img {
+     width: 35px;
+     height: 30px;
+     justify-content: center;
+     margin: auto;
+     margin-top: 10px;
+}
+
+.segment {
+     background-color:white;
+     width:  165px;
+     height: 65px;
+     margin-right: 14px;
+     margin-left: 12px;
+     padding: 13px;
+     border-radius: 5px;
+     border: none;
+
+}
+
+.segment input{
+     font-size: 10px;
+     color: #707070;
+     text-align: center;
+     border: none;
+}  
+
+.segment a{
+     font-size: 10px;
+     color: #707070;
+     margin-left: 50px;
+     text-decoration: none;
+}  
+
+.btn {
+     text-align: center;
+}
+
+.spinners {
+     text-align: center; 
+     padding-top: 84px; 
+}
