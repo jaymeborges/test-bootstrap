@@ -108,6 +108,11 @@ span{
     margin:0px 0px;
 }
 
+.sel {
+    background:#FFF;
+    border-radius:5px;
+}
+
 .text{
     margin:8px;
     color: #707070;
