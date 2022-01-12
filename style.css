@@ -84,57 +84,38 @@ body{
   }
 
   input {
-    height: 25px;
-}
-
-.card {
-     width:  65px;
-     height: 65px;
-     margin: auto;
-     border: none;
-}
-
-.card img {
-     width: 35px;
-     height: 30px;
-     justify-content: center;
-     margin: auto;
-     margin-top: 10px;
-}
-
-.segment {
-
-     background-color:white;
-     width:  165px;
-     height: 65px;
-     margin-right: 20%;
-     margin-left: 6%;
-     padding: 13px;
-     border-radius: 5px;
-     overflow: hidden;
-     border: none;
-
-}
-
-.segment input{
-     font-size: 10px;
-     color: #707070;
-     text-align: center;
-     border: none;
-}  
-
-.segment a{
-     font-size: 10px;
-     color: #707070;
-     margin-left: 50px;
-     text-decoration: none;
-}  
-
-.btn {
-     text-align: center;
+     height: 25px;
 }
 
 .spinners {
      text-align: center; 
      padding-top: 84px; 
 }
+
+span{
+    font-size:10px;
+
+}
+
+.box{
+    padding:0px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:5px;
+    padding:0px 10px;
+    margin:0px 0px;
+}
+
+.text{
+    margin:8px;
+    color: #707070;
+}
+
+.text h6 {
+    font-size: 10px;
+    margin:0px;
+    color: #707070;
+}
+
