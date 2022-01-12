@@ -102,20 +102,21 @@ span{
 }
 
 .box-part{
-    background:#FFF;
+    background:white;
     border-radius:5px;
     padding:0px 10px;
     margin:0px 0px;
 }
 
-.sel {
-    background:#FFF;
+div.select {
+    background:white;
     border-radius:5px;
 }
 
 .text{
     margin:8px;
     color: #707070;
+    text-align: center;
 }
 
 .text h6 {

@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    $("select").hover(function(){
-      $(this).css("background-color", "red");
+    $("div.select").hover(function(){
+      $(this).css('border', '1px solid #c93d30');
       }, function(){
-      $(this).css("background-color", "white");
+      $(this).css('border', '1px solid white');
     });
   });
