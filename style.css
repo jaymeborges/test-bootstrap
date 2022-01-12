@@ -103,13 +103,15 @@ body{
 }
 
 .segment {
+
      background-color:white;
      width:  165px;
      height: 65px;
-     margin-right: 14px;
-     margin-left: 12px;
+     margin-right: 20%;
+     margin-left: 6%;
      padding: 13px;
      border-radius: 5px;
+     overflow: hidden;
      border: none;
 
 }
