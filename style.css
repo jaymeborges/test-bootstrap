@@ -1,5 +1,11 @@
+:root{
+  --cor0: #707070;
+  --cor1: #c93d30;
+  --cor2: #fff;
+}
+
 body{
-    background-color:light grey;
+    background-color:light var(--cor0);
 }
 
 .line {
@@ -24,7 +30,7 @@ body{
   .stepper-item::before {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #707070;
+    border-bottom: 2px solid var(--cor0);
     width: 100%;
     top: 4px;
     left: -50%;
@@ -34,7 +40,7 @@ body{
   .stepper-item::after {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #707070;
+    border-bottom: 2px solid var(--cor0);
     width: 100%;
     top: 4px;
     left: 50%;
@@ -50,7 +56,7 @@ body{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #707070;
+    background: var(--cor0);
     margin-bottom: 6px;
   }
   
@@ -59,17 +65,17 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 10px; 
-    color: #707070;
+    color: var(--cor0);
   }
   
   .stepper-item.completed .step-counter {
-    background-color: #c93d30;
+    background-color: var(--cor1);
   }
   
   .stepper-item.completed::after {
     position: absolute;
     content: "";
-    border-bottom: 2px solid #707070 ;
+    border-bottom: 2px solid var(--cor0) ;
     width: 100%;
     top: 4px;
     left: 50%;
@@ -103,14 +109,14 @@ span{
 }
 
 .box-part{
-    background:white;
+    background:var(--cor2);
     border-radius:5px;
     padding:3px 20px;
     margin:6px 0px;
 }
 
 div.select {
-    background: white;
+    background: var(--cor2);
     margin:0px 0px;
     border-radius:5px;
     margin: auto;
@@ -119,13 +125,13 @@ div.select {
 
 .text{
     margin:2px 0px;
-    color: #707070;
+    color: var(--cor0);
     text-align: center;
 }
 
 .text h6 {
     font-size: 10px;
     margin:0px;
-    color: #707070;
+    color: var(--cor0);
 }
 
